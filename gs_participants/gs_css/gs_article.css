@@ -1,0 +1,46 @@
+body{
+    background: #edede5;
+}
+first-section article p{
+    color:black;
+}
+.article-title h1{
+    color:black;
+    font-family: 'Karla', sans-serif;
+    color:#615f5f;
+}
+
+img{
+    height:300px;
+}
+.para-box {
+    border: 5px solid black;
+    height:fit-content;
+    border-radius: 5px;
+
+}
+.para-box p{
+    color:#615f5f;
+    font-family: 'Patrick Hand', cursive;
+
+}
+.article-section{
+    height: 100vh;
+    display:table-row;
+    border: 1px solid black;
+}
+.article-box{
+    display:table-cell;
+    height:fit-content;
+    width:33.33%;
+    padding:10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-family: 'Karla', sans-serif;
+    color:#615f5f;
+}
+
+.article-box h3
+{
+    color: #615f5f;
+}

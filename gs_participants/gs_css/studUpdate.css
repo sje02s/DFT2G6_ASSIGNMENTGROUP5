@@ -1,0 +1,20 @@
+.form-box{
+    border:2px solid black;
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+    margin:200px auto ;
+    padding:30px;
+    border-radius:20px;
+}
+.update-field{
+
+    width:fit-content;
+    height:fit-content;
+    padding:20px;
+}
+error{
+    width:fit-content;
+    height:fit-content;
+    padding:20px;
+}

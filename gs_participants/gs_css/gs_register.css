@@ -1,0 +1,150 @@
+body
+{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #615f5f;
+    background: linear-gradient(to top right, #1f4037, #99f2c8);
+    overflow: hidden;
+}
+
+.register
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+    height: 750px;
+    background: white;
+    border-radius: 25px;
+}
+
+.register h1
+{
+    color: #b2c999;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #b2c999;
+}
+
+.register form
+{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .register-input
+{
+    padding-top: 10px;
+    position: relative;
+}
+
+.register-input label
+{
+    position: relative;
+    color: #615f5f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form .register-input .left-input
+{
+    float: left;
+}
+
+form .register-input .left-input input[type=text],
+form .register-input .left-input input[type=email],
+form .register-input .left-input input[type=tel],
+form .register-input .left-input input[type=password]
+{
+    position: relative;
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #b2c999;
+    background: none;
+    outline: none;
+}
+
+form .register-input .left-input input[type=radio]
+{
+    position: relative;
+    margin: 0 0 15px 15px;
+    letter-spacing: 1px;
+}
+
+form .register-input .left-input #position
+{
+    position: relative;
+    padding: 3px;
+    margin: 15px 0 15px 15px;
+    border: 1px solid #b2c999;
+    color: #615f5f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form .register-input .right-input
+{
+    float: right;
+}
+
+form .register-input .right-input input[type=text],
+form .register-input .right-input input[type=password]
+{
+    position: relative;
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    border: none;
+    border-bottom: 1px solid #b2c999;
+    background: none;
+    outline: none;
+}
+
+form .register-input .right-input #faculty,
+form .register-input .right-input #year,
+form .register-input .right-input #sem
+{
+    position: relative;
+    padding: 3px;
+    margin: 15px 0 15px 15px;
+    border: 1px solid #b2c999;
+    color: #615f5f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.register-btn
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #b2c999;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.register-btn:hover
+{
+    background: #edede5;
+    color: #b2c999;
+    transition: 0.3s;
+}

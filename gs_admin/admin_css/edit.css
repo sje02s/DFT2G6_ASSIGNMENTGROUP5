@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(247,247,247);
+}
+*
+{
+
+    margin: 0px;
+}
+.admin-panel {
+    width: 100%;
+
+}
+
+.slidebar {
+    width: 20.5%;
+    height: 538px;
+    float: left;
+    border-right: 1px solid rgb(235,235,235);
+    background-color: rgb(247,247,247);
+}
+
+.slidebar .logo {
+    height: 145px;
+    width:145px;
+    border-bottom: 1px solid rgb(235,235,235);
+}
+
+.slidebar ul {
+    padding: 0;
+    margin:0;
+}
+
+.slidebar li {
+    list-style-type: none;
+    margin: 0;
+    position: relative;
+}
+
+.slidebar ul a {
+    color: rgb(140,140,140);
+    text-decoration: none;
+    font:16px/40px 'Karla';
+    box-sizing:border-box;
+    border-bottom: 1px solid rgb(235,235,235);
+    display: block;
+    box-shadow:inset 0 1px 0 rgb(255,255,255);
+    text-indent: 20px;
+    text-transform: capitalize;
+}
+
+.slidebar li:hover a {
+    background-color: rgb(255,255,255);
+}
+
+.main {
+    float: left;
+    width: 79%;
+    height: 100%;
+    background-color: rgb(255,255,255);
+    position: relative;
+    font-family: 'Karla';
+}
+
+.update-box{
+    border:1px solid black;
+    width:100%;
+    height: fit-content;
+    margin:auto;
+    background:#adb5bd;
+}
+.update-btn{
+    background:#f8edeb;
+    width:110px;
+    height:30px;
+    border-radius:10px;
+}
+.update-field{
+    width:100%;
+    height: fit-content;
+    border:1px solid black;
+    padding:6px;
+}
+
+.statusbar {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.statusbar a {
+    color: rgb(102,102,102);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.statusbar a:hover {
+    background-color: white;
+}
+
+.statusbar .profiles-setting, .statusbar .logout {
+    float: left;
+}
+
+.statusbar .profiles-setting a, .statusbar .logout a {
+    font-family: 'icomoon';
+    width: 49px;
+    height: 49px;
+    line-height: 50px;
+    border-left: 1px solid rgb(235,235,235);
+}
+
+td{
+    border:1px solid black;
+}
+th{
+
+    background:lightgray;
+}
+.info-name{
+    width:150px;
+}
+.info-email{
+    width:300px;
+}

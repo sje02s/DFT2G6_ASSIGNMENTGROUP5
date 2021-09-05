@@ -1,0 +1,96 @@
+body{
+
+    background: rgb(255, 255, 255);
+}
+
+
+.middle {
+    text-align: center;
+} 
+
+.middle b{
+    color: #615f5f;
+    font-family: 'Gowun Batang', serif;
+    font-size:22px;
+}
+
+.row{
+
+    width:100%;
+}
+
+.material-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.material-block b{
+    font-size:14px;
+    color:rgb(14, 29, 12);
+
+}
+
+
+
+.material-icons{
+    font-size:14px;
+    color:darkblue;
+
+}
+
+
+
+.align-center, .center {
+    text-align: center;
+}
+
+.profile-user-info {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    border:3px solid black;
+}
+
+.profile-info-row{
+    align-items:center;
+
+}
+
+.profile-info-name{
+    text-align: center;
+
+}
+
+i{
+    margin-left: 2px;
+}
+
+
+
+.profile-info-name {
+    text-align: center;
+    padding: 6px 10px 6px 4px;
+    font-weight: 400;
+    color: #080808;
+    background: linear-gradient(90deg, rgba(152, 207, 165, 0.788) 48%, rgba(124, 216, 204, 0.463) 56%);
+}
+
+.profile-info-name p{
+    font-size:20px;
+    font-family: 'Patrick Hand', cursive;
+    color: #168b86;
+}
+
+
+.profile-picture {
+
+    padding: 4px;
+    display: inline-block;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px rgb(255, 255, 255)
+}

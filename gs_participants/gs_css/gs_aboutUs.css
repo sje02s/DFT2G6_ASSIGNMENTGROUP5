@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #edede5;
+    background: linear-gradient(202deg, rgba(124,244,241,0.21052170868347342) 48%, rgba(70,184,252,0.03125) 56%);
+}
+
+.section-bg{
+    height:100%;
+    width: 100%;
+    background: rgb(124,244,241);
+    background: linear-gradient(0deg, rgba(124,244,241,0.21052170868347342) 48%, rgba(70,184,252,0.03125) 56%);
+    background-repeat:no-repeat;
+}
+
+.title{
+    width: fit-content;
+    margin: auto;
+}
+
+.outer-background{
+    margin-top: 60px;
+    margin-left:30%;
+
+    background: rgb(124,244,154);
+    background: linear-gradient(90deg, rgba(124,244,154,0.5522584033613445) 48%, rgba(70,252,229,0.46262254901960786) 56%);
+    margin-right: 50%;
+    width:800px;
+    height:900px;
+    z-index:0;  
+} 
+
+.outer{ 
+    margin:auto;
+    width:fit-content;
+    height:fit-content;
+    z-index:2;
+    margin-top: -850px;
+}
+
+.about{
+    background: url("css_image/aboutus1pic.jpg") no-repeat left;
+    background-size: 54%;
+    padding: 100px 0;
+    overflow: hidden;
+} 
+
+.inner-section{
+    font-family: 'Gowun Batang', serif;
+    width: 55%;
+    float: right;
+    background-color: #eef3f5;
+    color: #1f292b;
+    padding: 110px;
+    box-shadow: 30px 15px 10px rgba(0, 0, 0, 0.356);
+
+}
+.inner-section h1 b{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #1f292b;
+}
+
+.text b{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; 
+    color: #1f292b;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.text1{
+    font-family: 'Patrick Hand', cursive;
+    font-size:19px;
+    color: #1f292b;
+}
+
+h1{
+
+    font-family: 'Gowun Batang', serif;
+    text-align: center;
+    color: #1f292b;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    border-radius:20px;
+    border-top: hidden;
+}
+
+.media {
+    width: 20%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    border:3px solid #a5a5a5;
+    border-radius:20px;
+}
+.media:hover {
+    cursor: pointer;
+}
+
+.overlay {
+    background: rgba(3, 3, 3, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+}
+.media:hover .overlay {
+    opacity: 1;
+}
+
+img {
+    width: 100%;
+    height:300px;
+    z-index: 1;
+    margin: auto;
+    transform: scale(1);
+    transition: all ease-in-out 0.5s;
+}
+
+.media:hover img {
+    transform: scale(1.1);
+    filter: blur(2px);
+}
+
+.image-details {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    z-index: 4;
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+}
+.media:hover .image-details {
+    top: 40%;
+    opacity: 1;
+}
+
+.outer-background2{
+    margin-top:200px;
+    margin-left: 30%;
+    margin-right: 50%;
+    width:800px;
+    height:800px;
+    z-index:0;  
+    background:linear-gradient(to right, rgb(143, 145, 27) , rgb(93, 173, 184));
+}
+
+@media only screen and (max-width: 900px) {
+    .media {
+        width: 70%;
+        height: 70%;
+    }
+}
+@media screen and (max-width:1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}

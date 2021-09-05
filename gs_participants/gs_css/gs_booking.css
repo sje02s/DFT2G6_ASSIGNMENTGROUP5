@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: #edede5;
+    font-family: 'Karla', sans-serif;
+}
+
+html{
+    background: #edede5;
+}
+
+.title {
+    padding: 1em 0 0 5em;
+    float: bottom;
+    font-size: 30em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #615f5f;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.type {                   
+    margin: 20em;
+}
+
+.type {
+    max-width: 900px;
+    margin: 2em 2em 2em 5em;
+    padding: 2em 2em 2em 5em;
+}
+
+.choice {
+    margin: 30px;
+}
+
+.choice-title {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: #615f5f;
+    margin: 1em 1em 1em 1em;
+}
+
+.choice-image {
+    float:left;
+    height: 200px;
+    width: 200px;
+}
+
+.choice-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.choice-des {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #615f5f;
+    text-align: justify;
+    margin: 40px 20px 40px 20px;
+}
+
+.button {
+  color: white;
+  float: right;
+  padding: .67em .67em;
+  background-color: #5ea649;
+  border: none;
+  border-radius: 100px;
+  font-weight: bold;
+  text-align: right;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {
+    background-color: #72c75a;
+}
+
+.content-image{
+    float:left;
+    height: 200px;
+}
+
+.book{
+  color: white;
+  float: left;
+  padding: 0.67em 0.67em;
+  margin: 60px 60px;
+  background-color: #5ea649;
+  border: none;
+  border-radius: 100px;
+  font-weight: normal;
+  text-align: right;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.book:hover{
+    background-color: #72c75a;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #edede5;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 20px;
+  color: #615f5f;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: grey;
+}
+
+.popup .close:hover {
+  color: black;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  font-family: 'Karla';
+  font-size: 20px;
+  font-weight: normal;
+  color: #615f5f;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
