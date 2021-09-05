@@ -31,7 +31,7 @@
             if ($studID_count) 
             {
                 $studID_pass = mysqli_fetch_assoc($query);
-
+                print('testing');
                 $db_pass = $studID_pass['password'];
             
                 $_SESSION['fullName'] = $studID_pass['fullName'];
